@@ -1,0 +1,51 @@
+name: cleanwithgetx
+description: "Flutter project with getx following clean code architecture pattern"
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  dio: ^4.0.6
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  shared_preferences: ^2.0.15
+  connectivity_plus: ^3.0.2
+  #flutter_screenutil: ^5.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/SFProTextRegular.ttf
+          weight: 400
+        - asset: assets/fonts/SFProTextMedium.ttf
+        - asset: assets/fonts/SFProTextSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SFProTextBold.ttf
+          weight: 700
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/
+  generate: true
+
+  uses-material-design: true

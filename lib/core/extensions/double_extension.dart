@@ -1,0 +1,4 @@
+
+extension Doubles on double {
+
+}
